@@ -5,22 +5,21 @@ void element(int arr[], int size, int key){
     int mid=start+(end-start)/2;
 
     while(true){
-        if(key==arr[mid]){
-            cout<<mid;
-        break;
+        if(arr[end]<key){cout<<"-1"; break;
+        }
+        else if(key==arr[mid]){
+            cout<<mid; break;
         }
         else if(key<arr[mid]){
             end=mid-1;
             if(start==mid){
-                cout<<start;
-            break;
+                cout<<start; break;
             }
         }
         else if(key>arr[mid]){
             start=mid+1;
         if(start==mid){
-            cout<<start;
-            break;
+            cout<<start; break;
         }
     }
     mid=start+(end-start)/2;

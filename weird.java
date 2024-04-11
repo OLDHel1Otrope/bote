@@ -20,4 +20,10 @@ class HelloWorld {
         if(n==0) return 0;
         return n%10+sumofdigits(n/10);
     }
+    public static int digitProduct(int x) {
+    	if(x%10==0)return 0;
+    	if(x<10)return x;
+    	return (x%10)*digitProduct(x/10);
+    }
+
 }

@@ -9,4 +9,8 @@
 		}
 		return linearSearch(arr,i+1, target);
 	}
+	public static boolean linearSearch2(int[] arr,int i,int target) {
+		if(i==arr.length) return false;
+		return arr[i]==target||linearSearch2(arr,i+1,target);
+	}
 	

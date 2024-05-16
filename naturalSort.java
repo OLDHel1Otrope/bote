@@ -1,5 +1,5 @@
 		public static ArrayList<ArrayList<Integer>> naturalMerge(ArrayList<Integer> x) {
-			int temp=x.get(0);
+		int temp=x.get(0);
 	        ArrayList<ArrayList<Integer>> listOfLists = new ArrayList<>();
 	        ArrayList<Integer> list1 = new ArrayList<>();
 			for(int i=0;i<x.size();i++) {

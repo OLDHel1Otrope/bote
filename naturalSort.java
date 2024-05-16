@@ -1,4 +1,4 @@
-		public static ArrayList<ArrayList<Integer>> naturalMerge(ArrayList<Integer> x) {
+	public static ArrayList<ArrayList<Integer>> naturalMerge(ArrayList<Integer> x) {
 		int temp=x.get(0);
 	        ArrayList<ArrayList<Integer>> listOfLists = new ArrayList<>();
 	        ArrayList<Integer> list1 = new ArrayList<>();

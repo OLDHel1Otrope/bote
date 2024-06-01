@@ -1,3 +1,38 @@
+public class spiralTraversal {
+    static void swapReduce(int arr[]) {
+        int temp = arr[0];
+        arr[0] = arr[arr.length - 1];
+        arr[arr.length - 1] = temp;
+    }
+
+    public static List<Integer> spiralOrder(int[][] matrix) {
+        List<Integer> result = new ArrayList<Integer>();
+        int totalElements = matrix.length * matrix[0].length;
+        int rowrange[] = { 0, matrix.length };
+        int colrange[] = { 0, matrix[0].length };
+        int i = 0, j = 0;
+        int d = 1;
+        while (result.size() < totalElements) {
+            //contains big errors
+            for (i = colrange[0]; i <= colrange[1]; i += d) {
+                result.add(matrix[j][i]);
+            }
+            i -= d;
+            for (j = colrange[0]; j <= colrange[1]; j += d) {
+                System.out.println(" ");
+                result.add(matrix[j][i]);
+            }
+            j -= d;
+            d *= -1;
+            swapReduce(colrange);
+            swapReduce(rowrange);
+        }
+
+        return result;
+
+    }
+
+
 public static ArrayList<Integer> spiralOrder2(int[][] matrix) {
         ArrayList<Integer> result = new ArrayList<>();
 

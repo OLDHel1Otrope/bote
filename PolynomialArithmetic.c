@@ -34,7 +34,7 @@ void arrangePoly(node *poly, int deg, int coeff)
         }
     }
 }
-void ADDPoly(node *p1, node *p2)
+void ADDPoly(node *p1, node *p2)//works like two way merge
 {
     node *temp1 = p1;
     node *temp2 = p2;

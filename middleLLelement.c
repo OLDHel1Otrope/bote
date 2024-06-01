@@ -2,6 +2,7 @@ int middleElement(node *list)
 {
     if (list == NULL)
         printf("the list is empty");
+        return -1;
     else
     {
         node *fast = list;

@@ -1,4 +1,5 @@
     public static int recurringNumber(int[] arr){
+        //finds only one missing number from o to n
         int n=arr.length;
         int i=0;
         while(i<n){

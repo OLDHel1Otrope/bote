@@ -94,7 +94,18 @@ public class Patterns {
             System.out.println();
         }
     }
-
+/*
+123456789
+ 1234567
+  12345
+   123
+    1
+    1
+   123
+  12345
+ 1234567
+123456789
+*/
 
     public static void main(String[] args) {
         p10(5);

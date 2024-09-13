@@ -28,7 +28,7 @@ public static int[] addDays2(int[] currentDate,int increment){
                 // Update for the next year
                 isLeapYear = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
                 daysInMonth[1] = isLeapYear ? 29 : 28;
-            } else if () {//no of days is greater than the number of days in the month
+            } else if (increment<=daysInMonth[month]-day-1) {//no of days is greater than the number of days in the current month
 
             }else{//// Less than the days in the current month
                 day+=increment;

@@ -1,19 +1,20 @@
 class Solution {
     public static int findMinDifference(List<String> timePoints) {
-        List<Integer> angles=new ArrayList<>();
+        int[] angles=new int[timePoints.size()];
+        int i=0;
         for(String time: timePoints){
             String[] timeParts = time.split(":");
             int hours = Integer.parseInt(timeParts[0]);
             int minutes = Integer.parseInt(timeParts[1]);
-            int k=(hours * 60) + (minutes);
-            angles.add(k);
+            angles[i]=(hours * 60) + (minutes);
+            i++;
         }
-        Collections.sort(angles);
+        Arrays.sort(angles);
         int min = Integer.MAX_VALUE;
-        for (int i = 1; i < angles.size(); i++) {
-            int diff = angles.get(i) - angles.get(i - 1);
+        for (int j = 1; j < angles.length; j++) {
+            int diff = angles[j] - angles[j-1];
             min =Math.min(min, diff);
         }
-        return Math.min(min, 24*60 - (angles.getLast() - angles.getFirst()));
+        return Math.min(min, 24*60 - (angles[angles.length-1] - angles[0]));
     }
 }

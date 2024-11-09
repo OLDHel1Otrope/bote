@@ -1,0 +1,26 @@
+static class item{
+        int weight;
+        int cost;
+        item(int weight, int cost){
+            this.weight=weight;
+            this.cost=cost;
+        }
+    }
+
+    public static double fractionalKnapsack(item[] items, int totalWeight){
+        // now we sort the items in the array on the basis of their profitability
+        Arrays.sort(items, (a, b) -> Double.compare((double) b.cost / b.weight, (double) a.cost / a.weight));
+        //this will send the most profitable element to the back
+        int remainingWeight=totalWeight;
+        double profit=0;
+        for (ReimplementingSorting.item item : items) {
+            if (item.weight > remainingWeight) {
+                profit += item.cost;
+                remainingWeight -= item.weight;
+            } else {//the remaining weight is less than the item weight
+                profit += ((double) item.cost / item.weight) * remainingWeight;
+                break;
+            }
+        }
+        return profit;
+    }

@@ -1,0 +1,26 @@
+UNIT – I
+Getting Familiar with Internet of Things (IoT): Definition, Characteristics, History
+Evolution of IoT. Physical Design of IoT: Things in IoT, IoT Protocols. Logical Design of IoT:
+Functional block, Communication Models and APIs, IoT Stack. Enabling Technologies:
+Sensors, Cloud Computing, Big Data analytics, Embedded Computing Boards,
+Communication Protocols, IoT Challenges, IoT Levels, Overview of Domain Specific IoTs
+applications Like Smart Cities, Smart Agriculture and Industrial IoT Applications.
+The IoT Paradigm: Comparison with User interface related Technologies like SCADA,
+M2M, SDN. IoT Design Methodology: IoT Components.
+UNIT – II
+Internet Vs Internet of Things: IoT Layers, IoT Messaging Protocols: MQTT, CoAP. IoT
+Transport Protocols: BLE, LiFi, Network Protocol: 6LoWPAN.
+Physical Design of IoT: Functional Block, Cloud Storage Models, Communication Models,
+and Communication APIs: REST based, Web Socket Based, Cloud for IoT: Challenges, Fog
+Computing.
+UNIT – III
+Physical Devices and Endpoints: Arduino Pin diagram, Arduino Architecture, Arduino
+Programming, Raspberry Pi Pin diagram, Raspberry Pi Architecture.
+Sensors and Interfacing: Types of Sensors. Integrating Sensors: HDT (Humidity and
+Temperature Sensor), Gas Detector, HC-05 (Bluetooth Module), Ultrasonic Sensor,
+ESP8266 (Wi-Fi Module).
+UNIT – IV
+Logical Design of IoT: Revisiting Python Programming for IoT (Data types, Operators,
+Control Structures, List, Tuples, Dictionaries, Functions, Modules and File Handling).
+Python Packages for connecting IoT Devices: Bluetooth, Sockets, Time, Requests, Sys,
+Adafruit Python DHT, paho-mqtt, Python JSON, Python pip.

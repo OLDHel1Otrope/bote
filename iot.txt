@@ -24,3 +24,100 @@ Logical Design of IoT: Revisiting Python Programming for IoT (Data types, Operat
 Control Structures, List, Tuples, Dictionaries, Functions, Modules and File Handling).
 Python Packages for connecting IoT Devices: Bluetooth, Sockets, Time, Requests, Sys,
 Adafruit Python DHT, paho-mqtt, Python JSON, Python pip.
+
+Define IoT and explain its key characteristics.
+Trace the evolution of IoT and its impact on modern technology.
+Discuss the physical design of IoT and list key IoT protocols.
+Explain the functional blocks of IoT and the various communication models.
+What is the IoT stack, and how does it facilitate IoT applications?
+How do enabling technologies like cloud computing and big data analytics enhance IoT systems?
+Describe domain-specific IoT applications, such as in smart agriculture or industrial IoT.
+Compare IoT with SCADA and M2M technologies. How is SDN integrated into the IoT paradigm?
+What are the primary challenges in designing IoT systems?
+
+UNIT – II: Internet vs Internet of Things
+
+    Differentiate between the Internet and the Internet of Things.
+    What are IoT messaging protocols? Discuss MQTT and CoAP.
+    Explain BLE and LiFi as IoT transport protocols.
+    What is 6LoWPAN, and how is it relevant to IoT networks?
+    Discuss REST-based and WebSocket-based APIs for IoT communication.
+    What are the challenges associated with cloud storage models in IoT?
+    Define Fog Computing and explain its significance in IoT architecture.
+
+UNIT – III: Physical Devices and Sensors
+
+    Explain the architecture and pin diagram of an Arduino board.
+    How does Arduino programming enable IoT applications?
+    Compare the architecture and functionality of Arduino and Raspberry Pi.
+    List and describe different types of sensors used in IoT applications.
+    Discuss the working and use cases of the following:
+        HDT Sensor
+        Gas Detector
+        HC-05 Bluetooth Module
+        Ultrasonic Sensor
+        ESP8266 Wi-Fi Module
+    How do sensors integrate with microcontrollers like Arduino and Raspberry Pi in IoT systems?
+
+UNIT – IV: Logical Design of IoT
+
+    Write a Python program to read data from an IoT sensor and save it in a file.
+    Explain how Python packages like paho-mqtt and Adafruit Python DHT are used in IoT.
+    Discuss the role of Bluetooth and Sockets in connecting IoT devices using Python.
+    What is the purpose of the requests and sys modules in IoT programming?
+    How can JSON files be used in Python for handling IoT data?
+    Explain the importance of Python pip in managing IoT libraries.
+    What are the advantages of using Python for IoT logical design compared to other languages?
+
+
+UNIT – I: Getting Familiar with IoT
+
+    Describe the role of IoT protocols in enabling communication between devices.
+    What are the different levels of IoT? Provide examples for each level.
+    How do embedded computing boards contribute to the IoT ecosystem?
+    Explain the role of sensors in IoT applications. Why are they considered the "eyes and ears" of IoT?
+    What are the differences between communication models used in IoT?
+    Discuss how IoT enables smart city solutions, focusing on transportation and energy management.
+    What are the main factors that distinguish IoT applications in agriculture from those in industrial automation?
+    Compare Big Data analytics in IoT with traditional data processing methods.
+    Explain the significance of the IoT paradigm in terms of scalability and interoperability.
+    What are the most common security challenges in IoT systems? How can they be addressed?
+
+UNIT – II: Internet vs Internet of Things
+
+    Why is MQTT preferred in IoT applications with constrained bandwidth? Provide a practical use case.
+    Explain the lightweight nature of CoAP and its typical applications in IoT.
+    How does BLE differ from traditional Bluetooth? What advantages does BLE bring to IoT?
+    Describe the working principles of LiFi technology and its relevance to IoT communication.
+    Explain the architecture and features of the 6LoWPAN protocol. How does it support IPv6 in IoT devices?
+    Illustrate the differences between REST-based APIs and WebSocket APIs for IoT communication.
+    What are the limitations of cloud computing in IoT, and how does Fog Computing address them?
+    Discuss the architecture of IoT layers. How does this layered approach enhance modularity?
+    Provide an example where messaging and transport protocols work together in an IoT application.
+    Compare and contrast the roles of MQTT and CoAP in IoT messaging.
+
+UNIT – III: Physical Devices and Sensors
+
+    What is the difference between digital and analog pins on Arduino? Provide examples of their use.
+    How can an Arduino board be programmed to collect data from multiple sensors?
+    Explain the role of the GPIO pins on a Raspberry Pi and their typical applications.
+    Discuss the significance of interfacing the HC-05 Bluetooth module with microcontrollers.
+    Describe the working mechanism of the ESP8266 Wi-Fi module. What are its primary use cases?
+    How does an ultrasonic sensor measure distance, and where is it commonly used in IoT systems?
+    Write the steps to connect an HDT sensor to a Raspberry Pi and log the data using Python.
+    Explain the use of a gas detector in IoT. How is its data processed for real-time monitoring?
+    Compare Arduino and Raspberry Pi for implementing IoT projects. Which one would you recommend for a beginner, and why?
+    What are the key factors to consider when integrating sensors with an IoT device?
+
+UNIT – IV: Logical Design of IoT
+
+    Write a Python function to publish temperature sensor data to an MQTT broker.
+    How can the time module be used in Python to control IoT device operations?
+    What is the significance of the requests library in retrieving and sending data over REST APIs?
+    Explain how Python sockets facilitate real-time communication between IoT devices.
+    Discuss the advantages of the Adafruit Python DHT library for handling temperature and humidity sensors.
+    Write a Python script to control an LED using a Raspberry Pi and the gpiozero library.
+    How does the paho-mqtt library simplify MQTT communication in IoT systems?
+    What are the best practices for handling sensor data using Python dictionaries and JSON?
+    Explain how Python modules are organized and reused in IoT projects. Provide examples of commonly used modules.
+    Write a Python script to log sensor data into a cloud database using a REST API.
